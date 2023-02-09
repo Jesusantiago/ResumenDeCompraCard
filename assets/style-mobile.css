@@ -1,0 +1,146 @@
+@media screen and (min-width: 375px){
+
+    .body{
+        background-color: var(--color-paleblue);
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        height: 100vh;
+        background-image: url(/order-summary-component-main/images/pattern-background-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main{
+        width: 20.12em;
+        height: 34em;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid black; */
+        background-color: var(--color-verypaleblue);
+        box-shadow: 0em 4em 7.25em -5em var(--colorDarkblue);
+
+    }
+
+    .img{
+        width: 20.125em;
+        height: 10em;
+        background-image: url(/order-summary-component-main/images/illustration-hero.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        padding: 2em 1em;
+    }
+
+    .text__title{
+        font-size: 1.5em;
+        font-weight: 900;
+        align-items: center;
+        /* margin-bottom: 1em; */
+    }
+
+    .text__paragraph{
+        width: 90%;
+        tab-size: 1em;
+        text-align: center;
+        font-weight: 500;
+        color: var(--colorDesaturatedblue); 
+        /* margin-bottom: 2em; */
+        
+    }
+
+    .text__inf{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+    }
+
+    .text__inf_cash{
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+
+    }
+
+    .text__money_plan{
+        display: inline;
+        font-weight: 700;
+    }
+
+    .text__money_prince{
+        display: inline;
+        font-weight: light;
+    }
+
+    .text__money_change{
+        font-weight: 700;
+        text-decoration:underline;
+        color: var( --color-brightblue);
+    }
+    
+    .buttons{
+        width: 100%;
+    }
+
+    .text__button_pay{
+        display: block;
+        margin-bottom: 1.5em;
+        background-color: var(--color-brightblue);
+        color: var(--color-paleblue);
+        box-shadow: 0em 1em 2em  -1em var(--colorDarkblue);
+    }
+    
+    .text__button_cancel{
+        display: block;
+        color: black;
+        
+    }
+    
+    
+    .button{
+        display: block;
+        width: 100%;
+        height: 3em;
+        font-weight: 700;
+        border: 0px;
+        border-radius: 1em;
+
+    }
+
+    .text__money_change:hover{
+        color: var(--colorDesaturatedblue);
+        cursor: pointer;
+    }
+
+    .text__button_pay:hover{
+        background-color: var(--colorDesaturatedblue);
+        cursor: pointer;
+    }
+
+    .text__button_cancel:hover{
+        cursor: pointer;
+    }
+
+    }
+
+    
+
+}

@@ -6,6 +6,7 @@
         align-items: center;
         justify-content: center;    
         height: 100vh;
+        background-image: none;
     }
     
     .div__fondo{
@@ -131,22 +132,8 @@
 
     }
 
-    .text__money_change:hover{
-        color: var(--colorDesaturatedblue);
-        cursor: pointer;
-    }
 
-    .text__button_pay:hover{
-        background-color: var(--colorDesaturatedblue);
-        cursor: pointer;
-    }
-
-    .text__button_cancel:hover{
-        cursor: pointer;
-    }
-
-    }
-
-    
 
 }
+
+    
