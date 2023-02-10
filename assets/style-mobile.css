@@ -6,7 +6,7 @@
         align-items: center;
         justify-content: center;    
         height: 100vh;
-        background-image: url(//order-summary-component-main/images/pattern-background-mobile.svg);
+        background-image: url(../order-summary-component-main/images/pattern-background-mobile.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -28,7 +28,7 @@
     .img{
         width: 20.125em;
         height: 10em;
-        background-image: url(//order-summary-component-main/images/illustration-hero.svg);
+        background-image: url(../order-summary-component-main/images/illustration-hero.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -138,9 +138,6 @@
     .text__button_cancel:hover{
         cursor: pointer;
     }
-
-    }
-
     
-
 }
+
